@@ -1,0 +1,16 @@
+#blog-block {
+  #left-banner {
+    a {
+      color: #fff;
+    }
+  }
+  #blog-lists {
+    article {
+      .elementor-post-date {
+        font-size: 14px;
+        color: gray;
+        text-transform: none;
+      }
+    }
+  }
+}

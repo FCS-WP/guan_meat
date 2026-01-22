@@ -1,0 +1,15 @@
+.box-shadow-1 {
+  box-shadow: rgba(9, 13, 17, 0.75) 0px 20px 30px -10px;
+}
+.box-shadow-2 {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.jkit-close-menu {
+  &:focus-visible {
+    border: none;
+  }
+  &:focus {
+    background: none;
+  }
+}

@@ -1,0 +1,39 @@
+#checkout-block {
+  font-family: var(--e-global-typography-text-font-family) !important;
+  bdi {
+    color: var(--e-global-color-text);
+  }
+  .showcoupon {
+    color: var(--e-global-color-secondary);
+    font-weight: 600;
+  }
+  .shop_table {
+    thead {
+      tr {
+        th {
+          color: var(--e-global-color-text);
+        }
+      }
+    }
+    tbody {
+      .product-name {
+        color: var(--e-global-color-text);
+        .product-quantity {
+          color: var(--e-global-color-text);
+        }
+      }
+    }
+    tfoot {
+      th {
+        color: var(--e-global-color-text);
+      }
+    }
+  }
+  #place_order {
+    border: 1px solid var(--e-global-color-accent);
+    color: var(--e-global-color-accent);
+    background-color: var(--e-global-color-3476459);
+    border-radius: 5px !important;
+    padding: 12px;
+  }
+}
