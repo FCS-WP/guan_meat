@@ -1,0 +1,43 @@
+#shop-bloc,
+#product-search-block {
+  .wpc-filter-title {
+    color: var(--e-global-color-text);
+    font-family: "Libre Baskerville", Sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 1.4em;
+  }
+  .children {
+    padding-left: 0px !important;
+  }
+  .wpc-filter-link {
+    color: var(--e-global-color-text);
+  }
+  .products {
+    .product {
+      a {
+        img {
+          height: 200px;
+          object-fit: contain;
+        }
+      }
+    }
+  }
+  .woocommerce-result-count {
+    color: var(--e-global-color-secondary);
+  }
+  .added_to_cart {
+    display: none;
+  }
+  .orderby {
+    border: 1px solid var(--e-global-color-secondary);
+    color: var(--e-global-color-secondary);
+    border-radius: 5px;
+    &:focus,
+    &:focus-visible {
+      outline: none;
+      border-color: var(--e-global-color-secondary);
+    }
+  }
+}

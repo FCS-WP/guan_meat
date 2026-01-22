@@ -1,0 +1,13 @@
+#header-block {
+  .elementor-button-icon {
+    .elementor-button-icon-qty {
+      top: -5px;
+      @include tablet {
+        top: 0px;
+      }
+      @include desktop {
+        top: 10px;
+      }
+    }
+  }
+}

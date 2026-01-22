@@ -1,0 +1,22 @@
+#singleproduct-block {
+  .quantity {
+    .input-text {
+      width: 80px;
+      &:focus-visible {
+        outline: none;
+      }
+    }
+  }
+}
+#related-product-block {
+  .products {
+    .product {
+      a {
+        img {
+          height: 200px !important;
+          object-fit: scale-down;
+        }
+      }
+    }
+  }
+}
