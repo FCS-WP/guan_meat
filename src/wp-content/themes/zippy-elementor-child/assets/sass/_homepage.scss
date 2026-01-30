@@ -16,3 +16,14 @@
     }
   }
 }
+#hp-categories {
+  .elementor-image-box-wrapper {
+    .elementor-image-box-img {
+      img {
+        aspect-ratio: 1;
+        object-fit: cover;
+        object-position: center;
+      }
+    }
+  }
+}

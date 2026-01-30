@@ -1,5 +1,6 @@
 #shop-block,
 #product-search-block {
+  font-family: var(--e-global-typography-text-font-family) !important;
   .wpc-filter-title {
     color: var(--e-global-color-text);
     font-family: "Libre Baskerville", Sans-serif;
@@ -39,5 +40,14 @@
       outline: none;
       border-color: var(--e-global-color-secondary);
     }
+  }
+  .wpc-wrap-icons {
+    font-family: var(--e-global-typography-text-font-family) !important;
+    font-size: 15px;
+    font-weight: 400;
+  }
+  .wpc-filter-link {
+    font-family: var(--e-global-typography-text-font-family) !important;
+    font-size: 14px;
   }
 }
